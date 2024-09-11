@@ -26,8 +26,6 @@ export default function DeleteModal({
   onClose,
   row,
 }: EditPackageTypes) {
-  //   const { isOpen, onOpen, onClose } = useDisclosure();
-
   const [isLoadind, setLoading] = useBoolean();
   const toast = useToast();
 
